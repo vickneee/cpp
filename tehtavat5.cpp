@@ -1,6 +1,6 @@
-#include <iostream>
-#include <string>
-#include <iterator>
+# include <iostream>
+# include <string>
+# include <iterator>
 using namespace std;
 
 int main()
