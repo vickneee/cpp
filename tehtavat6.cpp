@@ -1,12 +1,12 @@
-# include <iostream>
-# include <string>
+#include <iostream>
+#include <string>
 using namespace std;
 
-// void testiFunktio(string sana, int luku)
-// {
-//     cout << "Hyvää huomenta!" << endl;
-//     cout << sana << luku << endl;
-// };
+void testiFunktio(string sana, int luku)
+{
+    // cout << "Hyvää huomenta!" << endl;
+    cout << sana << " " << luku << endl;
+};
 
 // int testiFunktio2(int luku, int luku1)
 // {
@@ -41,15 +41,12 @@ using namespace std;
 
 int main()
 {
-    // string test;
-    // int numero = 5;
-    // int numero1 = 8;
-    // testiFunktio();
+    string tervehdys = "Huomenta kaikki!";
+    int numero = 5;
 
-    // string tervehdys = "Huomenta kaikki!";
     // string tervehdys = "";
     // cin >> tervehdys;
-    // testiFunktio(tervehdys, numero);
+    testiFunktio(tervehdys, numero);
 
     // cout << testiFunktio2(int luku, int luku1) << endl;
     // string test = testiFunktio2(int luku, int luku1);
