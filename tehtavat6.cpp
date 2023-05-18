@@ -13,11 +13,11 @@ using namespace std;
 //     return luku + luku1;
 // };
 
-// string testiFunktio3(string koulu)
-// {
-//     string koulunNimi = "Koulu nimi oli " + koulu;
-//     return koulunNimi;
-// };
+string testiFunktio3(string koulu)
+{
+    string koulunNimi = "Koulu nimi oli " + koulu;
+    return koulunNimi;
+};
 
 // void testiFunktio3(string koulu = "Varia")
 // {
@@ -57,10 +57,10 @@ int main()
     // int vastaus = testiFunktio2(7, 9);
     // cout << vastaus << endl;
 
-    // cout << testiFunktio3("Omnia") << endl;
-    // cout << testiFunktio3("Metropolia") << endl;
+    cout << testiFunktio3("Omnia") << endl;
+    cout << testiFunktio3("Metropolia") << endl;
 
-    // testiFunktio3();
+    testiFunktio3();
 
     // cout << plussa(5.6f, 9.1f) << endl;
     // cout << plussa(5.6, 9.3) << endl;
