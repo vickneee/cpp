@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     string empty = "";
-    // while, for, do while
 
+    // while, for, do while
     int num = 1;
     while (num <= 5)
     {
