@@ -2,22 +2,22 @@
 #include <string>
 using namespace std;
 
-// void testiFunktio(string sana, int luku)
-// {
-//     cout << "Hyvää huomenta!" << endl;
-//     cout << sana << luku << endl;
-// };
+void testiFunktio(string sana, int luku)
+{
+    // cout << "Hyvää huomenta!" << endl;
+    cout << sana << " " << luku << endl;
+};
 
 // int testiFunktio2(int luku, int luku1)
 // {
 //     return luku + luku1;
 // };
 
-string testiFunktio3(string koulu)
-{
-    string koulunNimi = "Koulu nimi oli " + koulu;
-    return koulunNimi;
-};
+// string testiFunktio3(string koulu)
+// {
+//     string koulunNimi = "Koulu nimi oli " + koulu;
+//     return koulunNimi;
+// };
 
 // void testiFunktio3(string koulu = "Varia")
 // {
@@ -41,15 +41,12 @@ string testiFunktio3(string koulu)
 
 int main()
 {
-    // string test;
-    // int numero = 5;
-    // int numero1 = 8;
-    // testiFunktio();
+    string tervehdys = "Huomenta kaikki!";
+    int numero = 5;
 
-    // string tervehdys = "Huomenta kaikki!";
     // string tervehdys = "";
     // cin >> tervehdys;
-    // testiFunktio(tervehdys, numero);
+    testiFunktio(tervehdys, numero);
 
     // cout << testiFunktio2(int luku, int luku1) << endl;
     // string test = testiFunktio2(int luku, int luku1);
@@ -57,10 +54,10 @@ int main()
     // int vastaus = testiFunktio2(7, 9);
     // cout << vastaus << endl;
 
-    cout << testiFunktio3("Omnia") << endl;
-    cout << testiFunktio3("Metropolia") << endl;
+    // cout << testiFunktio3("Omnia") << endl;
+    // cout << testiFunktio3("Metropolia") << endl;
 
-    testiFunktio3();
+    // testiFunktio3();
 
     // cout << plussa(5.6f, 9.1f) << endl;
     // cout << plussa(5.6, 9.3) << endl;
